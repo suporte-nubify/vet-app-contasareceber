@@ -2,15 +2,17 @@ services:
   app:
     build: .
     container_name: vet-app
-    ports:
-      - "3847:3847"
+    # sem "ports": o NPM acessa direto pela rede NubDocker
     environment:
       DATABASE_URL: "file:/app/data/app.db"
-      NEXTAUTH_URL: "http://localhost:3847"
+      NEXTAUTH_URL: "https://contas.seudominio.com.br"
       NEXTAUTH_SECRET: "*^%sZ^u!!DetW35RWXQJEUu&N1DCa@"
-      AUTH_DEMO_USER: "admin"
-      AUTH_DEMO_PASSWORD: "VPp$!N%SWLi6#*KtZZ9y"
     volumes:
-      # Persistência do SQLite no host (Windows: pasta data/ ao lado do compose)
       - ./data:/app/data
+    networks:
+      - NubDocker
     restart: unless-stopped
+
+networks:
+  NubDocker:
+    external: true
