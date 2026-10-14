@@ -1,0 +1,68 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  username     String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+}
+
+model Tutor {
+  id        String         @id @default(cuid())
+  nome      String         @unique
+  createdAt DateTime       @default(now())
+  contas    ContaReceber[]
+}
+
+model Procedimento {
+  id        String         @id @default(cuid())
+  nome      String         @unique
+  createdAt DateTime       @default(now())
+  contas    ContaReceber[]
+}
+
+model Estabelecimento {
+  id        String         @id @default(cuid())
+  nome      String         @unique
+  createdAt DateTime       @default(now())
+  contas    ContaReceber[]
+}
+
+model FormaPagamento {
+  id        String         @id @default(cuid())
+  nome      String         @unique
+  createdAt DateTime       @default(now())
+  contas    ContaReceber[]
+}
+
+model ContaReceber {
+  id                 String           @id @default(cuid())
+  data               DateTime
+  tutorId            String?
+  tutor              Tutor?           @relation(fields: [tutorId], references: [id])
+  nomePet            String
+  procedimentoId     String
+  procedimento       Procedimento     @relation(fields: [procedimentoId], references: [id])
+  valor              Float
+  estabelecimentoId  String
+  estabelecimento    Estabelecimento  @relation(fields: [estabelecimentoId], references: [id])
+  formaPagamentoId   String?
+  formaPagamento     FormaPagamento?  @relation(fields: [formaPagamentoId], references: [id])
+  recebido           Boolean          @default(false)
+  recebidoEm         DateTime?
+  observacoes        String?
+  createdAt          DateTime         @default(now())
+  updatedAt          DateTime         @updatedAt
+
+  @@index([data])
+  @@index([recebido])
+  @@index([tutorId])
+  @@index([estabelecimentoId])
+}

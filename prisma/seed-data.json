@@ -1,0 +1,552 @@
+[
+  {
+    "data": "2026-09-02T00:00:00",
+    "tutor": "Silvana",
+    "pet": "Nordeste",
+    "procedimento": "profilaxia dentária",
+    "total": 210.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-02T00:00:00",
+    "tutor": "Priscila",
+    "pet": "Loui",
+    "procedimento": "orquiectomia",
+    "total": 210.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-02T00:00:00",
+    "tutor": "Douglas",
+    "pet": "Panqueca",
+    "procedimento": "OVH",
+    "total": 210.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-02T00:00:00",
+    "tutor": "Luciana",
+    "pet": "Snoopy",
+    "procedimento": "nodulectomia",
+    "total": 350.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-03T00:00:00",
+    "tutor": null,
+    "pet": "Pandora",
+    "procedimento": "biopsia intestinal",
+    "total": 380.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-03T00:00:00",
+    "tutor": "Luciano",
+    "pet": "Ted",
+    "procedimento": "TPLO",
+    "total": 300.0,
+    "estabelecimento": "Zoolife",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-03T00:00:00",
+    "tutor": "Luciano",
+    "pet": "Otavio",
+    "procedimento": "TPLO",
+    "total": 300.0,
+    "estabelecimento": "Zoolife",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-04T00:00:00",
+    "tutor": "Isadora",
+    "pet": "Aysha",
+    "procedimento": "TC",
+    "total": 210.0,
+    "estabelecimento": "Noronha",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-04T00:00:00",
+    "tutor": null,
+    "pet": "Maya",
+    "procedimento": "profilaxia dentária",
+    "total": 300.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-04T00:00:00",
+    "tutor": null,
+    "pet": "Luna",
+    "procedimento": "OVH",
+    "total": 150.0,
+    "estabelecimento": "Raquel Oro",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-04T00:00:00",
+    "tutor": null,
+    "pet": "Maia",
+    "procedimento": "OVH",
+    "total": 150.0,
+    "estabelecimento": "Raquel Oro",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-05T00:00:00",
+    "tutor": "Mariluce",
+    "pet": "Malu",
+    "procedimento": "profilaxia dentária",
+    "total": 210.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-08T00:00:00",
+    "tutor": "Andre",
+    "pet": "Beth",
+    "procedimento": "OVH",
+    "total": 250.0,
+    "estabelecimento": "Golden King",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-09T00:00:00",
+    "tutor": "Sirlei",
+    "pet": "Puca",
+    "procedimento": "orquiectomia",
+    "total": 120.0,
+    "estabelecimento": "Raquel Oro",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-09T00:00:00",
+    "tutor": "Bruna",
+    "pet": "Wood",
+    "procedimento": "profilaxia dentária",
+    "total": 300.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-09T00:00:00",
+    "tutor": "Felipe",
+    "pet": "jack",
+    "procedimento": "profilaxia dentária",
+    "total": 350.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-10T00:00:00",
+    "tutor": "Leonardo",
+    "pet": "Afrodite",
+    "procedimento": "profilaxia dentária",
+    "total": 350.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-11T00:00:00",
+    "tutor": "Fernanda",
+    "pet": "Gaia",
+    "procedimento": "profilaxia dentária",
+    "total": 300.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-11T00:00:00",
+    "tutor": "Fernanda",
+    "pet": "Nacional",
+    "procedimento": "Endoscopia + profilaxia",
+    "total": 300.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-11T00:00:00",
+    "tutor": "Fernanda",
+    "pet": "Maia",
+    "procedimento": "Endoscopia + profilaxia",
+    "total": 300.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-11T00:00:00",
+    "tutor": "Jurandir",
+    "pet": "Lucky",
+    "procedimento": "TPLO",
+    "total": 280.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-11T00:00:00",
+    "tutor": "Julianer",
+    "pet": "Chisca",
+    "procedimento": "TPLO",
+    "total": 280.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-14T00:00:00",
+    "tutor": "Veridiana",
+    "pet": "Flora",
+    "procedimento": "OVH",
+    "total": 210.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-14T00:00:00",
+    "tutor": "Magda",
+    "pet": "benguela",
+    "procedimento": "orquiectomia",
+    "total": 250.0,
+    "estabelecimento": "Golden King",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-14T00:00:00",
+    "tutor": null,
+    "pet": "Oddin",
+    "procedimento": "orquiectomia",
+    "total": 300.0,
+    "estabelecimento": "Golden King",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-14T00:00:00",
+    "tutor": "Luis",
+    "pet": "Sky",
+    "procedimento": "OVH",
+    "total": 250.0,
+    "estabelecimento": "Golden King",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-14T00:00:00",
+    "tutor": "Tel Fabiano",
+    "pet": "Simba",
+    "procedimento": "enterotomia",
+    "total": 350.0,
+    "estabelecimento": "Golden King",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-15T00:00:00",
+    "tutor": "Geovania",
+    "pet": "Toby",
+    "procedimento": "nodulectomia + profilaxia",
+    "total": 300.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-16T00:00:00",
+    "tutor": "Rodrigo",
+    "pet": "Duda",
+    "procedimento": "nodulectomia +profilaxia",
+    "total": 280.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-16T00:00:00",
+    "tutor": "Maurício",
+    "pet": "Cookie",
+    "procedimento": "profilaxia dentária",
+    "total": 210.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-16T00:00:00",
+    "tutor": "Paula",
+    "pet": "Amiga",
+    "procedimento": "profilaxia dentária",
+    "total": 210.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-16T00:00:00",
+    "tutor": "Luciano",
+    "pet": "pretinha",
+    "procedimento": "TPLO",
+    "total": 300.0,
+    "estabelecimento": "Zoolife",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-17T00:00:00",
+    "tutor": "Caroline",
+    "pet": "Filé",
+    "procedimento": "TPLO",
+    "total": 380.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-17T00:00:00",
+    "tutor": "Junior",
+    "pet": "Brisa",
+    "procedimento": "tireoidectomia",
+    "total": 420.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "PIX",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-17T00:00:00",
+    "tutor": "Sabrina",
+    "pet": "Claramela",
+    "procedimento": "OVH",
+    "total": 280.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-17T00:00:00",
+    "tutor": "Andrea",
+    "pet": "Nala",
+    "procedimento": "nodulectomia",
+    "total": 280.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-18T00:00:00",
+    "tutor": "Raquel",
+    "pet": "Olaf",
+    "procedimento": "orquiectomia",
+    "total": 120.0,
+    "estabelecimento": "Raquel Oro",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-21T00:00:00",
+    "tutor": "Taisa",
+    "pet": "Guará",
+    "procedimento": "profilaxia dentária",
+    "total": 210.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-21T00:00:00",
+    "tutor": "Rodrigo",
+    "pet": "Lupi",
+    "procedimento": "profilaxia dentária",
+    "total": 300.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-22T00:00:00",
+    "tutor": "Sérgio",
+    "pet": "Carlota",
+    "procedimento": "profilaxia dentária",
+    "total": 300.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-22T00:00:00",
+    "tutor": "Angela",
+    "pet": "Penélope",
+    "procedimento": "nodulectomia",
+    "total": 300.0,
+    "estabelecimento": "Agrograssi",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-22T00:00:00",
+    "tutor": "Marisa",
+    "pet": "Preta",
+    "procedimento": "profilaxia dentária",
+    "total": 250.0,
+    "estabelecimento": "Agrograssi",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-22T00:00:00",
+    "tutor": "Vanessa",
+    "pet": "Chica",
+    "procedimento": "profilaxia dentária",
+    "total": 250.0,
+    "estabelecimento": "Agrograssi",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-22T00:00:00",
+    "tutor": "Dormi",
+    "pet": "Mel",
+    "procedimento": "profilaxia dentária",
+    "total": 250.0,
+    "estabelecimento": "Agrograssi",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-22T00:00:00",
+    "tutor": "Patrícia",
+    "pet": "Tobi",
+    "procedimento": "profilaxia dentária",
+    "total": 250.0,
+    "estabelecimento": "Agrograssi",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-23T00:00:00",
+    "tutor": "Rosane",
+    "pet": "Snow",
+    "procedimento": "Cistotomia",
+    "total": 280.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-23T00:00:00",
+    "tutor": "Luciano",
+    "pet": "Ursa",
+    "procedimento": "TPLO",
+    "total": 300.0,
+    "estabelecimento": "Zoolife",
+    "pagamento": "Dinheiro",
+    "conferido": false
+  },
+  {
+    "data": "2026-09-24T00:00:00",
+    "tutor": "Eduardo",
+    "pet": "Ragnar",
+    "procedimento": "orquiectomia",
+    "total": 200.0,
+    "estabelecimento": "Golden King",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-24T00:00:00",
+    "tutor": "Eduarda",
+    "pet": "Chico",
+    "procedimento": "orquiectomia",
+    "total": 300.0,
+    "estabelecimento": "Golden King",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-24T00:00:00",
+    "tutor": "Juliano",
+    "pet": "Pandora",
+    "procedimento": "OVH",
+    "total": 280.0,
+    "estabelecimento": "Golden King",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-24T00:00:00",
+    "tutor": "João",
+    "pet": "Amora",
+    "procedimento": "OVH",
+    "total": 250.0,
+    "estabelecimento": "Golden King",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-24T00:00:00",
+    "tutor": "Istela",
+    "pet": "Smili",
+    "procedimento": "nodulectomia",
+    "total": 280.0,
+    "estabelecimento": "Golden King",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-25T00:00:00",
+    "tutor": "Daiana",
+    "pet": "Syleto",
+    "procedimento": "cistotomia + orquiectomia",
+    "total": 350.0,
+    "estabelecimento": "Celeiro das Rações",
+    "pagamento": null,
+    "conferido": false
+  },
+  {
+    "data": "2026-09-25T00:00:00",
+    "tutor": "Maicon",
+    "pet": "Thor",
+    "procedimento": "orquiectomia + profilaxia",
+    "total": 200.0,
+    "estabelecimento": "Toby e Co",
+    "pagamento": "PIX",
+    "conferido": true
+  },
+  {
+    "data": "2026-09-28T00:00:00",
+    "tutor": "Alexandre",
+    "pet": "Luke",
+    "procedimento": "profilaxia dentária",
+    "total": 210.0,
+    "estabelecimento": "Dogs Life",
+    "pagamento": null,
+    "conferido": false
+  }
+]

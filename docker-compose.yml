@@ -1,0 +1,16 @@
+services:
+  app:
+    build: .
+    container_name: contas-a-receber
+    ports:
+      - "3847:3847"
+    environment:
+      DATABASE_URL: "file:/app/data/app.db"
+      NEXTAUTH_URL: "http://localhost:3847"
+      NEXTAUTH_SECRET: "contas-a-receber-dev-secret-change-me"
+      AUTH_DEMO_USER: "admin"
+      AUTH_DEMO_PASSWORD: "admin"
+    volumes:
+      # Persistência do SQLite no host (Windows: pasta data/ ao lado do compose)
+      - ./data:/app/data
+    restart: unless-stopped
