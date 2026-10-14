@@ -5,7 +5,7 @@ services:
     # sem "ports": o NPM acessa direto pela rede NubDocker
     environment:
       DATABASE_URL: "file:/app/data/app.db"
-      NEXTAUTH_URL: "https://contas.seudominio.com.br"
+      NEXTAUTH_URL: "https://vetfin.nubiway.cloud"
       NEXTAUTH_SECRET: "*^%sZ^u!!DetW35RWXQJEUu&N1DCa@"
     volumes:
       - ./data:/app/data
